@@ -3,8 +3,6 @@ import streamlit as st
 st.set_page_config(
     page_title="Players",
     layout='wide',
-    theme='light'
-
 )
 
 df_data = st.session_state['df_data']
